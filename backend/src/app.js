@@ -45,6 +45,9 @@ app.use(
   })
 );
 
+// Favicon Route to prevent unnecessary 404 logs
+app.get('/favicon.ico', (req, res) => res.status(204).end());
+
 // API Routes
 app.use('/api', routes);
 
