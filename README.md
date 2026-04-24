@@ -97,6 +97,12 @@ CREATE DATABASE taskmanager_db;
    *The server will start on port 5000 and automatically sync the Sequelize models.*
 
 ### 3. Frontend Setup
+
+ Check the `.env` file
+   ```env
+   VITE_API_URL=http://localhost:5000/api
+   ```
+   
 1. Open a new terminal and navigate to the frontend directory:
    ```bash
    cd frontend
