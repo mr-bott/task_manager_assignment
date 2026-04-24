@@ -20,7 +20,7 @@ const startServer = async () => {
 
     const PORT = config.server.port;
     const server = app.listen(PORT, () => {
-      logger.info(`🚀 Server running in ${config.server.nodeEnv} mode on port ${PORT}`);
+      logger.info(` Server running in ${config.server.nodeEnv} mode on port ${PORT}`);
     });
 
     // Handle unhandled promise rejections
