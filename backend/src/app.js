@@ -12,6 +12,9 @@ const logger = require('./utils/logger');
 
 const app = express();
 
+// Trust proxy for rate limiting and secure cookies (if behind a proxy)
+app.set('trust proxy', 1);
+
 // Security Middlewares
 app.use(helmet());
 app.use(
