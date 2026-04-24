@@ -25,7 +25,7 @@ const Navbar = () => {
               <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-xl">T</span>
               </div>
-              <span className="font-bold text-xl text-slate-800">TaskFlow</span>
+              <span className="font-bold text-xl text-slate-800">TaskFlow </span>
             </Link>
           </div>
 
